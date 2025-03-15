@@ -1,0 +1,174 @@
+.sidebar {
+  padding: 20px;
+  height: fit-content;
+  border-radius: var(--border-radius);
+  position: sticky;
+  top: 80px;
+  transition: box-shadow 0.3s ease;
+  border: 1px solid var(--border-color);
+  
+  &:hover {
+    box-shadow: var(--card-shadow);
+  }
+}
+
+.mobileSidebar {
+  padding: 16px;
+  position: relative;
+  z-index: 100;
+  border-radius: var(--border-radius);
+  background-color: white;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.filterHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.filterIcon {
+  font-size: 1.125rem;
+  margin-right: 8px;
+  color: var(--primary-color);
+}
+
+.divider {
+  margin: 0 -20px;
+  opacity: 0.6;
+  
+  @media (max-width: 768px) {
+    margin: 0 -16px;
+  }
+}
+
+.accordion {
+  background-color: transparent;
+  box-shadow: none;
+  
+  &:before {
+    display: none;
+  }
+}
+
+.accordionSummary {
+  padding: 0;
+  min-height: 48px;
+  
+  & > div {
+    margin: 0;
+  }
+}
+
+.accordionDetails {
+  padding: 8px 0 16px;
+}
+
+.priceSlider {
+  color: var(--primary-color);
+  margin-top: 16px;
+}
+
+.priceLabel {
+  padding: 4px 8px;
+  background-color: var(--background-light);
+  border-radius: 4px;
+  font-weight: var(--font-weight-medium);
+}
+
+.switch {
+  margin-right: 8px;
+}
+
+.switchLabel {
+  margin-left: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.activeFiltersContainer {
+  background-color: rgba(63, 81, 181, 0.05);
+  padding: 12px;
+  border-radius: var(--border-radius);
+  margin-bottom: 16px;
+}
+
+.resetButton {
+  font-size: 0.75rem;
+  padding: 0;
+  min-width: auto;
+  color: var(--secondary-color);
+  
+  &:hover {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+}
+
+.filterChip {
+  background-color: var(--primary-light);
+  color: white;
+  font-size: 0.75rem;
+  height: 24px;
+  
+  & > svg {
+    color: white;
+  }
+}
+
+.resultCount {
+  margin: 12px 0;
+  text-align: center;
+}
+
+.mobileFilterToggle {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.filterButton {
+  border-color: var(--border-color);
+  text-transform: none;
+  color: var(--text-primary);
+  
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+}
+
+.mobileFilterContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.closeButton {
+  color: var(--text-secondary);
+}
+
+.mobileActions {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-color);
+}
+
+.closeFilterButton {
+  border-color: var(--border-color);
+  text-transform: none;
+}
+
+.applyButton {
+  text-transform: none;
+}

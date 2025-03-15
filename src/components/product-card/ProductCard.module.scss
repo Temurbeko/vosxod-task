@@ -1,0 +1,128 @@
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+
+    .name {
+      color: var(--primary-color);
+    }
+  }
+}
+
+.imageContainer {
+  position: relative;
+  padding-top: 100%;
+  background-color: var(--background-light);
+  overflow: hidden;
+}
+
+.imagePlaceholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.favoriteButton {
+  position: absolute !important;
+  top: 8px;
+  right: 8px;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  z-index: 2;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+  }
+}
+
+.newBadge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  font-weight: var(--font-weight-medium);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.productLink {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.name {
+  margin-bottom: 4px;
+  transition: color 0.2s ease;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 2.5rem;
+}
+
+.brand {
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.75rem;
+}
+
+.price {
+  margin-bottom: 16px;
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-dark);
+}
+
+.addButton {
+  margin-top: auto;
+  text-transform: none;
+  font-weight: var(--font-weight-medium);
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.quantityControls {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 4px;
+  background-color: var(--background-light);
+}
+
+.quantity {
+  font-weight: var(--font-weight-medium);
+  min-width: 24px;
+  text-align: center;
+}

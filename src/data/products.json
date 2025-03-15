@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Премиальный ноутбук",
+    "price": 121716.47,
+    "brand": "TechMax",
+    "description": "Высокопроизводительный ноутбук с новейшим процессором и видеокартой.",
+    "isNew": true,
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1733317312273-a37561012283?q=80&w=1470&auto=format&fit=crop"
+  },
+  {
+    "id": "2",
+    "name": "Беспроводные наушники",
+    "price": 18731.54,
+    "brand": "AudioPro",
+    "description": "Беспроводные наушники с шумоподавлением и премиальным качеством звука.",
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=1632&auto=format&fit=crop"
+  },
+  {
+    "id": "3",
+    "name": "Смартфон",
+    "price": 84247.54,
+    "brand": "MobiTech",
+    "description": "Многофункциональный смартфон с продвинутой камерой и длительным временем работы.",
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1533228100845-08145b01de14?q=80&w=1476&auto=format&fit=crop"
+  },
+  {
+    "id": "4",
+    "name": "Настольный монитор",
+    "price": 32757.54,
+    "brand": "ViewTech",
+    "description": "Изогнутый монитор с ультрашироким экраном для погружения в происходящее на экране.",
+    "isNew": false,
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1683436791486-508249532f52?q=80&w=1374&auto=format&fit=crop"
+  },
+  {
+    "id": "5",
+    "name": "Беспроводная мышь",
+    "price": 4682.54,
+    "brand": "ComputeX",
+    "description": "Эргономичная беспроводная мышь с длительным временем работы и точным отслеживанием.",
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1660491083562-d91a64d6ea9c?q=80&w=1481&auto=format&fit=crop"
+  },
+  {
+    "id": "6",
+    "name": "Механическая клавиатура",
+    "price": 12168.47,
+    "brand": "ComputeX",
+    "description": "Механическая клавиатура с настраиваемой RGB-подсветкой и программируемыми клавишами.",
+    "isNew": false,
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1664194583917-b0ba07c4ce2a?q=80&w=1470&auto=format&fit=crop"
+  },
+  {
+    "id": "7",
+    "name": "Bluetooth-колонка",
+    "price": 7486.54,
+    "brand": "AudioPro",
+    "description": "Портативная Bluetooth-колонка с водонепроницаемым дизайном и мощным звуком.",
+    "isNew": false,
+    "imageUrl": "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?fm=jpg&q=60&w=3000"
+  },
+  {
+    "id": "8",
+    "name": "Планшет",
+    "price": 46804.54,
+    "brand": "MobiTech",
+    "description": "Легкий планшет с ярким дисплеем и батареей, работающей весь день.",
+    "isNew": true,
+    "imageUrl": "https://images.unsplash.com/photo-1648737966636-2fc3a5fffc8a?q=80&w=1470&auto=format&fit=crop"
+  }
+]
